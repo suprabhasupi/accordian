@@ -1,0 +1,46 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    padding-top: 50px;
+  }
+  .title {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header {
+    background-color: #00d1b2;
+    color: white;
+    border-top: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 15px;
+  }
+  .message-body   {
+    padding: 0;
+    max-height: 10em;
+    overflow: hidden;
+    border-color: #00d1b2;
+    background: rgba(0, 215, 191, 0.09);
+    border: 1px solid #00d1b2;
+    transition: 0.3s ease all;
+  }
+  .closed .message-body {
+    max-height: 0;
+  }
+  .message-content {
+    text-align: left;
+    padding: 20px;
+  }
